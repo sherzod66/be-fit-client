@@ -1,0 +1,17 @@
+@import 'src/assets/styles/variables';
+.statistics {
+	width: 100%;
+	.statistics__row {
+		display: flex;
+		justify-content: space-between;
+	}
+	.statistics__column {
+	}
+	.statistics__column p:first-child {
+		font-size: 26px;
+		color: #f1c4c4;
+	}
+	.statistics__column p:last-child {
+		text-align: center;
+	}
+}

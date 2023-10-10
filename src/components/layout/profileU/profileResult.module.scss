@@ -1,0 +1,24 @@
+.userPath {
+	margin: 40px 0px 0px 0px;
+	display: flex;
+	.userPath__column {
+		flex: 0 1 50%;
+		padding: 0px 25px;
+		& p {
+			text-align: center;
+			font-size: 18px;
+		}
+	}
+	.userPathImage {
+		width: 100%;
+		height: 300px;
+		border-radius: 5px;
+		overflow: hidden;
+		& img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+}

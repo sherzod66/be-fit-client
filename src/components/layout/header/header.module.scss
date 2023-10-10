@@ -1,0 +1,23 @@
+@import 'src/assets/styles/variables';
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	> button {
+		border: none;
+		outline: none;
+		cursor: pointer;
+		background-color: transparent;
+	}
+
+	.icons {
+		color: #fff;
+		font-size: 35px;
+	}
+	.iconsD {
+		color: #fff;
+		font-size: 25px;
+	}
+}
